@@ -1,0 +1,13 @@
+<div class="header">
+    <h1>News</h1>
+</div>
+<div class="news-collection">
+    {{#each data}}
+    <div class="news-wrapper" style="background-image: url({{this.image}})" data-url="{{this.url}}">
+        <div class="details">
+            {{this.title}}
+            {{!-- {{this.description}} --}}
+        </div>
+    </div>
+    {{/each}}
+</div>

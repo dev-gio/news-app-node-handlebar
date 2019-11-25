@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT&display=swap');
+
+* {
+    font-family: 'Old Standard TT', serif;
+    cursor: pointer;
+}
+.news-wrapper {
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    flex-direction: row;
+    margin: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details {
+    height: auto;
+    width: 100%;
+    background: rgba(244, 244, 244, 0.90);
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.news-collection {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.header {
+    display:flex;
+    justify-content: center;
+    background:#DFE3E5;
+    max-width: 1000px;
+    margin: 0 auto;
+}
